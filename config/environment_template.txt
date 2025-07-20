@@ -1,0 +1,33 @@
+# Copy this file to .env in your project root and fill in your actual values
+
+# API Keys
+OPENAI_API_KEY=sk-proj-your-openai-api-key-here
+LANGSMITH_API_KEY=lsv2_pt_your-langsmith-api-key-here
+
+# Vector Database Paths
+VECTOR_DB_PATH=D:/DATA/vectorstore
+LOCAL_VECTOR_DB_PATH=D:\GUI\2025-05-27\data\chroma
+DATA_DIR=D:\GUI\2025-05-27\data
+VECTOR_STORE_PATH=data/chroma
+
+# Email Configuration
+GMAIL_ADDRESS=your_gmail@gmail.com
+GMAIL_APP_PASSWORD=your_gmail_app_password
+OUTLOOK_ADDRESS=your_outlook@email.com
+OUTLOOK_PASSWORD=your_outlook_password
+
+# System Configuration
+TEMP_DIR=data/temp_emails
+LOG_LEVEL=INFO
+CLEANUP_INTERVAL_HOURS=24
+
+# LangSmith Configuration
+LANGSMITH_TRACING=true
+LANGSMITH_ENDPOINT=https://api.smith.langchain.com
+LANGSMITH_PROJECT=profile-builder-tests
+
+# LangChain Configuration (for backward compatibility)
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
+LANGCHAIN_API_KEY=lsv2_pt_your-langsmith-api-key-here
+LANGCHAIN_PROJECT=profile-builder-tests 
